@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# --- Environments ---
+.venv/
+venv/
+env/
+venv_file
+*.env
+
+# --- Pytest ---
+.pytest_cache/
+.cache/
+
+# --- Migrations ---
+migrations/__pycache__/
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.iml
+
+# --- Docker ---
+*.pid
+*.log
+*.db
+*.sock
+*.sqlite3
+*.egg-info/
+.DS_Store
+
+# --- Build / Dist ---
+build/
+dist/
+*.egg/
+*.egg-info/
+
+# --- System ---
+Thumbs.db
+
+# --- Project Specific ---
+# Ignore any local files you might create during debugging
+services/**/__pycache__/
