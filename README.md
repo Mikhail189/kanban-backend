@@ -94,7 +94,7 @@ docker compose exec board-service pytest -v
 Пример для `file-service/.env`:
 
 ```env
-YANDEX_S3_BUCKET=file-service-koop
+YANDEX_S3_BUCKET=<BUCKET>
 YANDEX_S3_ENDPOINT=https://storage.yandexcloud.net
 YANDEX_S3_ACCESS_KEY_ID=<YOUR_ACCESS_KEY>
 YANDEX_S3_SECRET_ACCESS_KEY=<YOUR_SECRET_KEY>
